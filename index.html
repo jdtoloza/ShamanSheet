@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href ="stylesheet.css">
+    <title>Shaman 9.2 Data</title>
+</head>
+<body>
+    <section>
+        <ul>
+            <li>
+                <h3>Lightning Bolt</h3>
+                <img src="" alt="">
+                <span>2.5 sec cast</span><span class="cooldown"> None </span>
+                <p>Hurls a bold of lightning at the target, dealing [95% of spell power] Nature damage</p>
+                <p> Generates 8 Maelstrom</p>
+            </li>
+            <li>
+                <h3>Chain Lightning</h3>
+                <img src="" alt="">
+                <span class="castTime">2 sec cast</span><span class="cooldown"> None </span>
+                <p class="spellDescription">Hurls a lightning bolt at an enemy, dealing [63.5% of Spell Power] Nature damage and then jumping to additional nearby enemies. Affects 5 total targets.</p>
+                <p class="maelstromDetails">Generates 4 Maelstrom per hit. </p>
+            </li>
+            <li>
+                <h3>Lava Burst</h3>
+                <img src="" alt="">
+                <span class="castTime">2 sec cast</span><span class="cooldown"></span>
+                <p class="spellDescription">Hurls a molten lava at the targetm dealing [97.2% of Spell Power] Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock</p>
+                <p class="maelstromDetails">Generates 10 Maelstrom</p>
+            </li>
+            <li>
+                <h3>Flame Shock</h3>
+                <img src="" alt="">
+                <span class="castTime">Instant</span><span class="cooldown"></span>
+                <p class="spellDescription">Sears the target with fire, causing [ 19.5% of Spell Power] Fire damage and then an additional [ 104.4% of Spell Power] Fire damage over 18 sec.</p>
+                <p class="maelstromDetails">Flame Shock can be applied to a maximum of 6 targets.</p>
+            </li>
+            <li>
+                <h3>Earth Shock</h3>
+                <img src="" alt="">
+                <span class="castTime">Instant</span>
+                <p class="spellDescription">Instantly shocks the target with concussive force, causing [273% of Spell Power] Nature damage. </p>
+                <p class="maelstromDetails">Costs 60 Maelstrom</p>
+            </li>
+            <li>
+                <h3>Earthquake</h3>
+                <img src="" alt="">
+                <span class="castTime">Instant</span><span class="cooldown"></span>
+                <p class="spellDescription">Create the earth within 8 yards of the target locations to tremble and break, dealing [246.3% of Nature Spell Power] Physical damage over 6 sec and sometimes knocking down enemies. </p>
+                <p class="maelstromDetails">Cost 60 Maelstrom</p>
+            </li>
+            <li>
+                <h3>Fire Elemental</h3>
+                <img src="" alt="">
+                <span class="castTime">Instant</span><span class="cooldown">2.5 minutes</span>
+                <p class="spellDescription">Calls forth a Great Fire Elemental to rain destruction on your enemies for 30 sec.</p>
+                <p class="maelstromDetails">While the Fire elemental is active, Flame shock deals damage 25% faster, and newly applied Flame Shocks last 100% longer. </p>
+                    <ul>
+                        <li>
+                            <h3>Meteor</h3>
+                            <img src="" alt="">
+                            <span class="castTime"> </span><span class="cooldown">1 minute</span>
+                            <p class="spellDescription">Calls down a molten meteor on your target, dealing (75% of Spell Power) damage to up to 8 enemies within 10 yards of your target.</p>
+                            <p class="maelstromDetails"></p>
+                        </li>
+                        <li>
+                            <h3>Immolate</h3>
+                            <img src="" alt="">
+                            <span class="castTime">2 sec</span><span class="cooldown">10 seconds</span>
+                            <p class="spellDescription">Burns an enemy, then inflicts additional Fire damage every 3 seconds for 21 seconds. </p>
+                            <p class="maelstromDetails"></p>
+                        </li>
+                        <li>
+                            <h3>Fire Blast</h3>
+                            <img src="" alt="">
+                            <span class="castTime">3 second cast</span><span class="cooldown"> None </span>
+                            <p class="spellDescription">Inflicts Fire damage to an enemy</p>
+                            <p class="maelstromDetails"></p>
+                        </li>
+                    </ul>
+            </li>
+            <li>
+                <h3></h3>
+                <img src="" alt="">
+                <span class="castTime"></span><span class="cooldown"></span>
+                <p class="spellDescription"></p>
+                <p class="maelstromDetails"></p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h3></h3>
+                <img src="" alt="">
+                <span class="castTime"></span><span class="cooldown"></span>
+                <p class="spellDescription"></p>
+                <p class="maelstromDetails"></p>
+            </li>
+            <li>
+                <h3></h3>
+                <img src="" alt="">
+                <span class="castTime"></span><span class="cooldown"></span>
+                <p class="spellDescription"></p>
+                <p class="maelstromDetails"></p>
+            </li>
+        </ul>
+    </section>
+    <section class="spreadsheet">
+        <table>
+            <tr>
+                <td>Total Spell Power / % Damage</td>
+                <td>Description</td>
+            </tr>
+        </table>
+        <ul>
+            <li>
+                <h3>Lightning Bolt</h3>
+                <table>
+                    <tr>
+                        <td>95%</td>
+                        <td>Base</td>
+                    </tr>
+                    <tr>
+                        <td>114%</td>
+                        <td>with Master of the Elements(+20% damage) </td>
+                    </tr>
+                    <tr>
+                        <td>439.375%</td>
+                        <td>with Stormkeeper(+150% damage)</td>
+                    </tr>
+                    <tr>
+                        <td>527.25%.375%</td>
+                        <td>with Stormkeeper(+150% damage) + Master of the Elements(+20% damage)</td>
+                    </tr>
+                    <tr>
+                        <td>1318.125%</td>
+                        <td>with Stormkeeper(+150% damage) + Master of the Elements(+20% damage) + Crit (x2.5 damage)</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Earth Shock</h3>
+                <table>
+                    <tr>
+                        <td>273%</td>
+                        <td>Base</td>
+                    </tr>
+                    <tr>
+                        <td>327.6%</td>
+                        <td>with Master of the Elements(+20%)</td>
+                    </tr>
+                    <tr>
+                        <td>682.5%</td>
+                        <td>Base + Crit(2.5x)</td>
+                    </tr>
+                    <tr>
+                        <td>819%</td>
+                        <td>with Master of the Elements(+20%) + Crit(2.5x)</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Earthquake</h3>
+                <table>
+                    <tr>
+                        <td>246%</td>
+                        <td>Base</td>
+                    </tr>
+                    <tr>
+                        <td>295.56%</td>
+                        <td>with Master of the Elements(+20%)</td>
+                    </tr>
+                    <tr>
+                        <td>541.86%</td>
+                        <td>with Echoes of the Great Sundering(+120%)</td>
+                    </tr>
+                    <tr>
+                        <td>615.75%</td>
+                        <td>Base + Crit(x2.5)</td>
+                    </tr>
+                    <tr>
+                        <td>650.23%</td>
+                        <td>with EOTGS + Master of The Elements(20%)</td>
+                    </tr>
+                    <tr>
+                        <td>1354.65%</td>
+                        <td> with EOTGS(+120%) + Crit(x2.5)</td>
+                    </tr>
+                    <tr>
+                        <td>1625.575%</td>
+                        <td>with EOTGS(+120%) + Master of the Elements(+20%) + Crit(x2.5)</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Elemental Blast</h3>
+                <table>
+                    <tr>
+                        <td>140%</td>
+                        <td>Base</td>
+                    </tr>
+                    <tr>
+                        <td>168%</td>
+                        <td>with Master of the Elements(+20%)</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Lava Burst</h3>
+                <table>
+                    <tr>
+                        <td>97.2%</td>
+                        <td>Base</td>
+                    </tr>
+                    <tr>
+                        <td>116.6%</td>
+                        <td>with Flame Elemental / 2 Piece(+20%) active</td>
+                    </tr>
+                    <tr>
+                        <td>243%</td>
+                        <td>with Flame Shock(x2.5) active</td>
+                    </tr>
+                    <tr>
+                        <td>291.5%</td>
+                        <td>with Fire Elemental / 2Piece(+20%) and Flame Shock(x2.5) active</td>
+                    </tr>
+                    <tr>
+                        <td>449.55%</td>
+                        <td>with Flame Shock(x2.5) active + Elemental Overload(+85%)</td>
+                    </tr>
+                    <tr>
+                        <td>539.275%</td>
+                        <td>with Fire Elemental / 2Piece(+20%) and Flame Shock(x2.5) active + Elemental Overload (+85%)</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Lava Burst + Primordial Wave (FlameShock is on all targets)</h3>
+                <table>
+                    <tr>
+                        <td>1 Target</td>
+                        <td>486%</td>
+                        <td>Generates 20 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>2 Targets</td>
+                        <td>729%</td>
+                        <td>Generates 30 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>3 Targets</td>
+                        <td>972%</td>
+                        <td>Generates 40 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>4 Targets</td>
+                        <td>1215%</td>
+                        <td>Generates 50 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>5 Targets</td>
+                        <td>1458%</td>
+                        <td>Generates 60 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>6 Targets</td>
+                        <td>1701%</td>
+                        <td>Generates 70 Maelstrom</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Lava Burst + Primordial Wave + 2 Piece (FlameShock is on all targets)</h3>
+                <table>
+                    <tr>
+                        <td>1 Target</td>
+                        <td>583%</td>
+                        <td>Generates 20 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>2 Targets</td>
+                        <td>874.5%</td>
+                        <td>Generates 30 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>3 Targets</td>
+                        <td>1116%</td>
+                        <td>Generates 40 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>4 Targets</td>
+                        <td>1457.5%</td>
+                        <td>Generates 50 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>5 Targets</td>
+                        <td>1749%</td>
+                        <td>Generates 60 Maelstrom</td>
+                    </tr>
+                    <tr>
+                        <td>6 Targets</td>
+                        <td>2040.5%</td>
+                        <td>Generates 70 Maelstrom</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Chain Lightning</h3>
+                <h4>Base</h4>
+                <table>
+                    <tr>
+                        <td>63.5% (317.5% MAX)</td>
+                        <td>base</td>
+                    </tr>
+                    <tr>
+                        <td>158.75% (793.75% MAX)</td>
+                        <td>crit</td>
+                    </tr>
+                </table>
+                <h4>2 Targets (Generatesn 8 Maelstrom) / 8 casts for 60</h4>
+                <Table>
+
+                    <tr>
+                        <td>127%</td>
+                        <td>2 Normal</td>
+                    </tr>
+                    <tr>
+                        <td>222.25%</td>
+                        <td>1 Normal + 1 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>317.5%</td>
+                        <td> 2 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>342.9%</td>
+                        <td>with Stormkeeper</td>
+                    </tr>
+                    <tr>
+                        <td>411.48%</td>
+                        <td>with Stormkeeper + Master of the Elements</td>
+                    </tr>
+                </Table>
+                <h4>3 Targets (Generates 12 Maelstrom) / 5 casts for 60</h4>
+                <table>
+                    <tr>                     
+                        <td>190.5%</td>
+                        <td>3 Normal</td>
+                    </tr>
+                    <tr>                       
+                        <td>285.75%</td>
+                        <td>2 Normal + 1 Crit</td>
+                    </tr>
+                    <tr>                        
+                        <td>381%</td>
+                        <td>1 Normal + 2 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>476.25%</td>
+                        <td>3 Crit</td>
+                    </tr>
+                    <tr>                       
+                        <td>676.275%</td>
+                        <td>with Stormkeeper</td>
+                    </tr>
+                    <tr>                        
+                        <td>811.53%</td>
+                        <td>with Stormkeeper + Master of the Elements</td>
+                    </tr>
+                </table>
+                <h4>4 Targets (Generates 16 Maelstrom) / 4 casts for 60</h4>
+                <table>
+                    <tr>                     
+                        <td>254.5%</td>
+                        <td>4 Normal</td>
+                    </tr>
+                    <tr>                       
+                        <td>349.25%</td>
+                        <td>3 Normal + 1 Crit</td>
+                    </tr>
+                    <tr>                        
+                        <td>444.5%</td>
+                        <td>2 Normal + 2 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>539.75%</td>
+                        <td>1 normal 3 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>635%</td>
+                        <td>4 Crit</td>
+                    </tr>
+                    <tr>                       
+                        <td>1117.6%</td>
+                        <td>with Stormkeeper</td>
+                    </tr>
+                    <tr>                        
+                        <td>1341.12%</td>
+                        <td>with Stormkeeper + Master of the Elements</td>
+                    </tr>
+                </table>
+                <h4>5 Targets (Generates 20 Maelstrom) / 3 casts for 60</h4>
+                <table>
+                    <tr>                     
+                        <td>317.5%</td>
+                        <td>5 Normal</td>
+                    </tr>
+                    <tr>                       
+                        <td>412.75%</td>
+                        <td>4 Normal + 1 Crit</td>
+                    </tr>
+                    <tr>                        
+                        <td>508.5%</td>
+                        <td>3 Normal + 2 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>603.25%</td>
+                        <td>2 normal 3 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>698.5%</td>
+                        <td>1 normal 4 Crit</td>
+                    </tr>
+                    <tr>
+                        <td>793.75%</td>
+                        <td>5 Crit</td>
+                    </tr>
+                    <tr>                       
+                        <td>1666.875%</td>
+                        <td>with Stormkeeper</td>
+                    </tr>
+                    <tr>                        
+                        <td>2000.25%</td>
+                        <td>with Stormkeeper + Master of the Elements</td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+    </section>
+    <section class="Rotation">
+        <h2>Rotation</h2>
+
+        <h3>Single Target</h3>
+        <ol>
+            <li>Flame Shock</li>
+            <li>Lava Burst on 0-1 charges (243% - 539%)</li>
+            <li>MOTE Fae Transfusion (822.5% - 2056.25%)</li>
+            <li>MOTE SK Lightning Bolt (527% - 1318.125%)</li>
+            <li>MOTE Earth Shock (327.6% - 819%) </li>
+            <li>MOTE Elemental Blast (168% - 420%)</li>
+            <li>Elemental Blast (140% - 350%)</li>
+            <li>MOTE Lightning Bolt (114% - 285%)</li>
+            <li>Lightning Bolt (95% - 237.5%)</li>
+            <li>Frost Shock</li>
+        </ol>
+
+        <h3>2 Target</h3>
+        <ol>
+            <li>FlameShock on 2 targets</li>
+            <li>Lava Burst on 0 - 1 charges (243% - 539%)</li>
+            <li>MOTE Earthquake with EOTGS (1300.46% - 3251.15%)</li>
+            <li>Earthquake with EOTGS (1083%.72% - 2709.3%) </li>
+            <li>MOTE Fae Transfusion (822.5% - 2056.25%)</li>
+            <li>MOTE SK Lightning Bolt (527% - 1318.125%)</li>
+            <li>MOTE Elemental Blast (168% - 420%)</li>
+            <li>Elemental Blast (140% - 350%)</li>
+            <li>MOTE/Regular Chain Lightning (127% - 381.5%)</li>
+            <li></li>
+            <li></li>
+        </ol>
+
+        <h3>3 Target</h3>
+        <ol>
+            <li>Earthquak</li>
+            <li>SK Chain Lightning with MOTE</li>
+            <li>Lava Burst</li>
+            <li>Chain Lightning</li>
+            <li>Flame Shock on 3 targets</li>
+        </ol>
+        <h3>4+ Targets</h3>
+        <ol>
+            <li>Earthquake</li>
+            <li>Chain Lightning</li>
+            <li>Lava surg Procs on the move or to empower earthquakes</li>
+            <li>Flame Shock on 1 target</li>
+        </ol>
+            
+    </section>
+    <script src = "index.js"></script>
+</body>
+</html>
